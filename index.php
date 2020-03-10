@@ -1,3 +1,5 @@
+<!-- C:\\Users\\Metype\\Desktop\\StuffIDontWantOnTheDesktop\\php\\php.exe -S localhost:8000 -->
+
 <script>
 var args=<?php echo json_encode($_GET);?>;
 var type=<?php echo json_encode($_SERVER);?>.PATH_INFO;
