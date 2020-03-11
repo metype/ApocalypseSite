@@ -33,3 +33,10 @@ function home() {
     $('<div/>').addClass('info').appendTo($('div.main'));
     $('<h3/>').text("The Apocalypse: First Blood").attr('style', 'height:1000').appendTo("div.info");
 }
+
+function contact() {
+    $('<div/>').addClass('info').appendTo($('div.main'));
+    $('<h3/>').text("Discord").attr('style', 'height:100').appendTo("div.info");
+    $('<a/>').text("https://discord.gg/UmrZT3").appendTo('div.info');
+
+}
