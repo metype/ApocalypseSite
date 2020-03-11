@@ -9,7 +9,7 @@
     color: #000000;
     font-size: 30px;
     margin:-8px;
-    position: top;
+    position: top,fixed;
     /* https://stackoverflow.com/questions/7576342/css-to-keep-element-at-fixed-position-on-screen */
     /* position: fixed; */
     /*https://stackoverflow.com/questions/19561585/how-to-make-div-go-behind-another-div*/
