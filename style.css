@@ -8,9 +8,8 @@
     color: #000000;
     font-size: 30px;
     margin:-8px;
-    position: fixed;
-    /* https://stackoverflow.com/questions/7576342/css-to-keep-element-at-fixed-position-on-screen */
-    /* position: fixed; */
+    padding: 10px;
+    position: top;
     /*https://stackoverflow.com/questions/19561585/how-to-make-div-go-behind-another-div*/
     z-index:1
 }
