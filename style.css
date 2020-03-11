@@ -8,6 +8,11 @@
     color: #000000;
     font-size: 30px;
     margin: -8px;
+
+    /* https://stackoverflow.com/questions/7576342/css-to-keep-element-at-fixed-position-on-screen */
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
 
 .error {
@@ -32,6 +37,7 @@ body{
     margin-top: 15px;
     margin-left: 5vw;
     margin-right:5vw;
+    height:10000px;
     background: #ffffff;
     font-size: 30px;
     border: 1px solid black;
