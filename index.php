@@ -14,7 +14,12 @@ var validPages=<?php echo json_encode(file("validPages.txt"));?>;
         <title class="title"></title>
     </head>
     <body>
-        <div class="header"></div>
+        <div class="header">
+            <button class="button" onClick="window.location.href=validPages[0]">Home</button>
+            <button class="button" onClick="window.location.href=validPages[1]">Blog</button>
+            <button class="button" onClick="window.location.href=validPages[2]">About</button>
+            <button class="button" onClick="window.location.href=validPages[3]">Contact</button>
+        </div>
         <div class="main"></div>
         <script src="index.js"></script>
     </body>
