@@ -20,7 +20,7 @@ function errorHandler(errnum, err) {
     timer--;
     $('h3.error').text(errnum + " Error," + err).append("\nRedirecting to Home in : " + timer);
     if (timer == 0) {
-        window.location.href = 'home';
+        window.location.href = '?page=home';
         clearInterval(error);
         timer = 5;
     }
