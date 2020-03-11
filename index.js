@@ -35,8 +35,8 @@ function home() {
 }
 
 function contact() {
-    $('<div/>').addClass('info').appendTo($('div.main'));
-    $('<h3/>').text("Discord").attr('style', 'height:100;background-color:#7289DA').appendTo("div.info");
+    $('<div/>').addClass('info').attr('style', 'background-color:#7289DA').appendTo($('div.main'));
+    $('<svg/>').attr('style', 'height:100').attr("src", 'Discord-Logo+Wordmark-Color.svg').appendTo("div.info");
     $('<a/>').attr('href', 'https://discord.gg/UmrZT3').text("https://discord.gg/UmrZT3").appendTo('div.info');
 
 }
