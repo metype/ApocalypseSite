@@ -3,13 +3,12 @@
 .header {
     height: 200px;
     width: 100vw;
-    margin-top:-15px;
     text-align: center;
     background: cyan;
     background-image: linear-gradient(to bottom right,turquoise, blue);
     color: #000000;
     font-size: 30px;
-    margin: -8px;
+    margin:-8px;
 
     /* https://stackoverflow.com/questions/7576342/css-to-keep-element-at-fixed-position-on-screen */
     position: fixed;
