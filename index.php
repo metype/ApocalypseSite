@@ -2,7 +2,7 @@
 
 <script>
 var args=<?php echo json_encode($_GET);?>;
-var type=<?php echo json_encode($_SERVER);?>.PATH_INFO;
+var type=args.page;
 var validPages=<?php echo json_encode(file("validPages.txt"));?>;
 </script>
 
