@@ -36,7 +36,7 @@ function home() {
 
 function contact() {
     $('<div/>').addClass('info').appendTo($('div.main'));
-    $('<h3/>').text("Discord").attr('style', 'height:100').appendTo("div.info");
-    $('<a/>').text("https://discord.gg/UmrZT3").appendTo('div.info');
+    $('<h3/>').text("Discord").attr('style', 'height:100;background-color:#7289DA').appendTo("div.info");
+    $('<a/>').attr('href', 'https://discord.gg/UmrZT3').text("https://discord.gg/UmrZT3").appendTo('div.info');
 
 }
