@@ -2,6 +2,7 @@
 
 .header {
     padding: 1vh;
+    width: 100vw;
     text-align: center;
     background: cyan;
     background-image: linear-gradient(to bottom right,turquoise, blue);
