@@ -7,6 +7,11 @@ let error;
 
 $('<h1/>').addClass('title').attr("style", "text-align:center").appendTo($('div.header'));
 $('h1.title').text(type.capitalizeFirstLetter());
+
+for (let i in validPages) {
+    $('<button/>').addClass('button').attr("onClick", "window.location.href ='?page=" + validPages[i]).appendTo($('div.header'));
+}
+
 if (validPages.indexOf(type + "\n") > -1) {
     $('title.title').text('The Apocalypse: First Blood - ' + type.capitalizeFirstLetter());
 } else {

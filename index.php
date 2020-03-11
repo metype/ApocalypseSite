@@ -14,12 +14,7 @@ var validPages=<?php echo json_encode(file("validPages.txt"));?>;
         <title class="title"></title>
     </head>
     <body>
-        <div class="header">
-            <button class="button" onClick="window.location.href='?page=home'">Home</button>
-            <button class="button" onClick="window.location.href='?page=blog'">Blog</button>
-            <button class="button" onClick="window.location.href='?page=about'">About</button>
-            <button class="button" onClick="window.location.href='?page=contact'">Contact</button>
-        </div>
+        <div class="header"></div>
         <div class="main"></div>
         <script src="index.js"></script>
     </body>
