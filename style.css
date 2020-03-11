@@ -22,6 +22,10 @@
     text-align: center;
 }
 
+body{
+    background:#555555;
+}
+
 .info {
     border-radius: 25px;
     line-height: 200px;
