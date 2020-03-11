@@ -6,7 +6,7 @@ let timer = 5;
 let error;
 
 for (let i in validPages) {
-    $('<button/>').addClass('button').attr("onClick", "window.location.href ='?page=" + validPages[i]).text(validPages[i].capitalizeFirstLetter()).appendTo($('div.header'));
+    $('<button/>').addClass('button').attr("onClick", "window.location.href ='?page=" + validPages[i] + "'").text(validPages[i].capitalizeFirstLetter()).appendTo($('div.header'));
 }
 
 $('<h1/>').addClass('title').attr("style", "text-align:center").appendTo($('div.header'));
