@@ -1,19 +1,17 @@
 String.prototype.capitalizeFirstLetter = function () {
     return this.charAt(0).toUpperCase() + this.slice(1);
 }
-
 let timer = 5;
 let error;
-
 for (let i in validPages) {
     $('<button/>').addClass('button').attr("onClick", "window.location.href='?page=" + validPages[i].split("\n")[0].split("\r")[0] + "'").text(validPages[i].split("\n")[0].split("\r")[0].capitalizeFirstLetter()).appendTo($('div.header'));
 }
-
 $('<h1/>').addClass('title').attr("style", "text-align:center").appendTo($('div.header'));
 $('h1.title').text(type.capitalizeFirstLetter());
 
 if (validPages.indexOf(type + "\n") > -1) {
     $('title.title').text('The Apocalypse: First Blood - ' + type.capitalizeFirstLetter());
+    window[type];
 } else {
     $('<h3/>').addClass('error').attr("style", "text-align:center").appendTo($('div.main'));
     $('title.title').text('The Apocalypse: First Blood - Error');
@@ -29,4 +27,9 @@ function errorHandler(errnum, err) {
         clearInterval(error);
         timer = 5;
     }
+}
+
+function home() {
+    $('<div/>').addClass('info').appendTo($('div.main'));
+    $('<h3/>').text("The Apocalypse: First Blood").appendTo("div.info");
 }
