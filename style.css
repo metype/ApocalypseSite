@@ -1,8 +1,9 @@
 * {font-family: orbitron;}
 
 .header {
-    padding: 1vh;
+    height: 50px;
     width: 100vw;
+    margin-top:-15px;
     text-align: center;
     background: cyan;
     background-image: linear-gradient(to bottom right,turquoise, blue);
@@ -36,7 +37,7 @@ body{
 .info {
     border-radius: 25px;
     line-height: 200px;
-    margin-top: 15px;
+    margin-top: 65px;
     margin-left: 5vw;
     margin-right:5vw;
     height:10000px;
@@ -44,7 +45,7 @@ body{
     font-size: 30px;
     border: 1px solid black;
     text-align: center;
-    
+
     /*https://stackoverflow.com/questions/19561585/how-to-make-div-go-behind-another-div*/
     z-index:1
 }
