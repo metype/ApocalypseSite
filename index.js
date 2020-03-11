@@ -40,6 +40,5 @@ function contact() {
     $('<img/>').attr('style', 'height:100px;padding:25px').addClass("discordLogo").attr("src", 'Discord-Logo+Wordmark-Color.png').appendTo("a.discordLink");
     $('<a/>').attr('href', 'https://twitter.com/GamesNwg').attr('style', 'height:100px,float:left').attr('target', '_blank').addClass("twitterLink").appendTo('div.info');
     $('<img/>').attr('style', 'height:100px;padding:25px').addClass("twitterLogo").attr("src", 'Twitter_Logo_Blue.png').appendTo("a.twitterLink");
-    $('<img/>').attr('style', 'height:100px;padding:25px').addClass("gmailLogo").attr("src", 'GMail-Logo.png').appendTo("div.info");
     $('<p/>').text("nwggamestudios@gmail.com").addClass("gmailAdress").appendTo('div.info');
 }
