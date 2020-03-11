@@ -11,8 +11,6 @@
 
     /* https://stackoverflow.com/questions/7576342/css-to-keep-element-at-fixed-position-on-screen */
     position: fixed;
-    bottom: 0;
-    right: 0;
 }
 
 .error {
