@@ -3,13 +3,14 @@
 .header {
     height: 200px;
     width: 100vw;
+    margin-top:-200px;
     text-align: center;
     background: cyan;
     background-image: linear-gradient(to bottom right,turquoise, blue);
     color: #000000;
     font-size: 30px;
     margin:-8px;
-    position: top,fixed;
+    position: fixed;
     /* https://stackoverflow.com/questions/7576342/css-to-keep-element-at-fixed-position-on-screen */
     /* position: fixed; */
     /*https://stackoverflow.com/questions/19561585/how-to-make-div-go-behind-another-div*/
