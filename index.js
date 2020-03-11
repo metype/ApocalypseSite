@@ -38,6 +38,6 @@ function contact() {
     $('<div/>').addClass('info').attr('style', 'background-color:#FFFFF').appendTo($('div.main'));
     $('<a/>').attr('href', 'https://discord.gg/UmrZT3').attr('style', 'height:100px,float:right').attr('target', '_blank').addClass("discordLink").appendTo('div.info');
     $('<img/>').attr('style', 'height:100px').addClass("discordLogo").attr("src", 'Discord-Logo+Wordmark-Color.png').appendTo("a.discordLink");
-    $('<a/>').attr('href', 'https://discord.gg/UmrZT3').attr('style', 'height:100px,float:right').attr('target', '_blank').addClass("discordLink").appendTo('div.info');
-    $('<img/>').attr('style', 'height:100px').addClass("discordLogo").attr("src", 'Discord-Logo+Wordmark-Color.png').appendTo("a.discordLink");
+    $('<a/>').attr('href', 'https://twitter.com/GamesNwg').attr('style', 'height:100px,float:left').attr('target', '_blank').addClass("twitterLink").appendTo('div.info');
+    $('<img/>').attr('style', 'height:100px').addClass("twitterLogo").attr("src", 'Twitter_Logo_Blue.png').appendTo("a.twitterLink");
 }
