@@ -9,7 +9,7 @@
     font-size: 30px;
     margin:-8px;
     padding: 10px;
-    position: top;
+    position: sticky;
     /*https://stackoverflow.com/questions/19561585/how-to-make-div-go-behind-another-div*/
     z-index:1
 }
