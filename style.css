@@ -1,8 +1,7 @@
 * {font-family: orbitron;}
 
 .header {
-    position: -webkit-sticky;
-    position: sticky;
+    position: fixed;
     width: 100vw;
     text-align: center;
     background: cyan;
@@ -38,7 +37,6 @@ body{
     margin-top: 15px;
     margin-left: 5vw;
     margin-right:5vw;
-    height:10000px;
     background: #ffffff;
     font-size: 30px;
     border: 1px solid black;

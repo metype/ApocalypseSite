@@ -31,5 +31,5 @@ function errorHandler(errnum, err) {
 
 function home() {
     $('<div/>').addClass('info').appendTo($('div.main'));
-    $('<h3/>').text("The Apocalypse: First Blood").appendTo("div.info");
+    $('<h3/>').text("The Apocalypse: First Blood").attr('style', 'height:1000').appendTo("div.info");
 }
