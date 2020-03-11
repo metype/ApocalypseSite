@@ -34,7 +34,7 @@ body{
 
 .info {
     border-radius: 25px;
-    line-height: 200px;
+    /* line-height: 200px; */
     margin-top: 15px;
     margin-left: 5vw;
     margin-right:5vw;
