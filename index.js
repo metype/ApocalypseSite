@@ -5,12 +5,12 @@ String.prototype.capitalizeFirstLetter = function () {
 let timer = 5;
 let error;
 
-$('<h1/>').addClass('title').attr("style", "text-align:center").appendTo($('div.header'));
-$('h1.title').text(type.capitalizeFirstLetter());
-
 for (let i in validPages) {
     $('<button/>').addClass('button').attr("onClick", "window.location.href ='?page=" + validPages[i]).text(validPages[i].capitalizeFirstLetter()).appendTo($('div.header'));
 }
+
+$('<h1/>').addClass('title').attr("style", "text-align:center").appendTo($('div.header'));
+$('h1.title').text(type.capitalizeFirstLetter());
 
 if (validPages.indexOf(type + "\n") > -1) {
     $('title.title').text('The Apocalypse: First Blood - ' + type.capitalizeFirstLetter());
