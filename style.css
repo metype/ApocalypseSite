@@ -1,7 +1,7 @@
 * {font-family: orbitron;}
 
 .header {
-    position: fixed;
+    position: sticky;
     width: 100vw;
     text-align: center;
     background: cyan;
@@ -35,7 +35,7 @@ body{
 .info {
     border-radius: 25px;
     line-height: 200px;
-    margin-top: 615px;
+    margin-top: 15px;
     margin-left: 5vw;
     margin-right:5vw;
     background: #ffffff;
