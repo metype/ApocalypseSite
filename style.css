@@ -3,7 +3,7 @@
 .header {
     height: 200px;
     width: 100vw;
-    margin-top:-200px;
+    margin-top:-500px;
     text-align: center;
     background: cyan;
     background-image: linear-gradient(to bottom right,turquoise, blue);
@@ -21,6 +21,7 @@
     border-radius: 25px;
     line-height: 200px;
     margin-left: 15vw;
+    margin-top: 215px;
     margin-right:15vw;
     background: #e32424;
     font-size: 30px;
