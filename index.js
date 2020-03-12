@@ -9,7 +9,7 @@ for (let i in validPages) {
 $('<h1/>').addClass('title').attr("style", "text-align:center").appendTo($('div.header'));
 $('h1.title').text(type.capitalizeFirstLetter());
 
-if (validPages.indexOf(type + "\n") > -1) {
+if (validPages.indexOf(type + "\n") > -1 || validPages.indexOf(type + "\r\n") > -1) {
     $('title.title').text('The Apocalypse: First Blood - ' + type.capitalizeFirstLetter());
     window[type]();
 } else {
