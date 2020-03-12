@@ -7,6 +7,10 @@
     --bg-secondary: #141418;
 }
 
+main {
+    margin-left: 5rem;
+}
+
 body {
     color: blask;
     background-color:white;
@@ -15,15 +19,11 @@ body {
 }
 
 .navbar{
+    margin:0px;
     width:5rem;
     height: 100vh;
     position:fixed;
     background-color: var(--bg-primary);
-}
-
-main {
-    margin-left: 5rem;
-
 }
 
 body ::-webkit-scrollbar{
@@ -40,13 +40,11 @@ body ::-webkit-scrollbar-thumb{
 
 .error {
     border-radius: 25px;
-    /* line-height: 200px; */
     margin-top: 1rem;
-    margin-left: 6rem;
+    margin-left: 11rem;
     margin-right:6rem;
     background: #e32424;
     font-size: 30px;
-    /* height: 200px; */
     border: 1px solid black;
     text-align: center;
 }
@@ -57,17 +55,13 @@ body{
 
 .info {
     border-radius: 25px;
-    /* line-height: 200px; */
     margin-top: 15px;
-    margin-left: 6rem;
+    margin-left: 11rem;
     margin-right:6rem;
     background: #ffffff;
     font-size: 30px;
     border: 1px solid black;
     text-align: center;
-
-    /*https://stackoverflow.com/questions/19561585/how-to-make-div-go-behind-another-div*/
-    z-index:2
 }
 
 
