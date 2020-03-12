@@ -45,7 +45,8 @@ function about() {
     $('<a/>').attr('href', 'https://fontawesome.com/icons/book?style=solid').attr('target', '_blank').html("Book Solid : https://fontawesome.com/icons/book?style=solid</br>").addClass("attributions").attr('style', 'font-size:20').appendTo(infoTwo);
     $('<a/>').attr('href', 'https://fontawesome.com/icons/phone?style=solid').attr('target', '_blank').html("Phone Solid : https://fontawesome.com/icons/phone?style=solid</br>").addClass("attributions").attr('style', 'font-size:20').appendTo(infoTwo);
     $('<a/>').attr('href', 'https://fontawesome.com/icons/home?style=solid').attr('target', '_blank').html("Home Solid : https://fontawesome.com/icons/home?style=solid</br>").addClass("attributions").attr('style', 'font-size:20').appendTo(infoTwo);
-    $('<p/>').html('NWG Games and 1Maker Studios are in no way affiliated with \"Font Awesome\"').addClass("affiliation").attr('style', 'font-size:15').appendTo(infoTwo);
+    $('<a/>').attr('href', 'https://fontawesome.com/license').attr('target', '_blank').html("Font Awesome Pro License : https://fontawesome.com/license</br>").addClass("attributions").attr('style', 'font-size:20').appendTo(infoTwo);
+    $('<p/>').html('NWG Games and 1Maker Studios are in no way affiliated with \"Font Awesome\". "Font Awesome" in no way endorses our product(s) or our use of their icons.').addClass("affiliation").attr('style', 'font-size:15').appendTo(infoTwo);
 }
 
 function contact() {
