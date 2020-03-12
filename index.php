@@ -11,11 +11,14 @@ var description=<?php echo json_encode(file("description.txt"));?>;
     <head>
         <link rel="icon" href="favicon.png"></link>
         <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap" rel="stylesheet">
         <style><?php include 'style.css'; ?></style>
         <title class="title"></title>
     </head>
     <body>
-        <div class="header"></div>
+        <nav class="navbar">
+
+        </nav>
         <div class="main"></div>
         <script><?php include 'index.js'; ?></script>
     </body>
