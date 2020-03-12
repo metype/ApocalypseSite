@@ -136,6 +136,8 @@ body{
     margin-left:5rem;
     padding-left:1rem;
     margin-right:0;
+    margin-top:-100px;
+    height:100px;
     background-color:#abafb8;
     border: 1px solid black;
     transition: 200ms ease;
