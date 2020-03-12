@@ -35,8 +35,15 @@ function home() {
     $('<p/>').html(description).addClass("homePageParagraph1").attr('style', 'font-size:20').appendTo('div.info');
 }
 
+function about() {
+    $('<div/>').addClass('info').appendTo($('div.main'));
+    $('<h3/>').text("About").appendTo("div.info");
+    $('<p/>').html("Nothing yet.").addClass("homePageParagraph1").attr('style', 'font-size:20').appendTo('div.info');
+}
+
 function contact() {
     $('<div/>').addClass('info').attr('style', 'background-color:#FFFFF').appendTo($('div.main'));
+    $('<h3/>').text("Here's some ways you can get in touch!").appendTo("div.info");
     $('<a/>').attr('href', 'https://discord.gg/UmrZT3').attr('style', 'height:100px,float:right').attr('target', '_blank').addClass("discordLink").appendTo('div.info');
     $('<img/>').attr('style', 'height:100px;padding:25px').addClass("discordLogo").attr("src", 'Discord-Logo+Wordmark-Color.png').appendTo("a.discordLink");
     $('<a/>').attr('href', 'https://twitter.com/GamesNwg').attr('style', 'height:100px,float:left').attr('target', '_blank').addClass("twitterLink").appendTo('div.info');

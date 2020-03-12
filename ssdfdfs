@@ -3,6 +3,7 @@
     font-family: 'Sen';
     --text-primary: #b6b6b6;
     --text-secondary: #ececec;
+    --bg-primary: 
     --bg-secondary: #141418;
 }
 
@@ -20,11 +21,13 @@ body {
 .logo{
     font-weight:bold;
     text-transform:uppercase;
-    align-self:center;
+    margin-bottom:1rem;
+    text-align:center;
     letter-spacing:0.3ch;
+    width:15rem;
     margin-top:1rem;
     height:3rem;
-    color: var(--text-primary)
+    color:#6e2727;
 }
 
 .navbar{
@@ -32,16 +35,12 @@ body {
     width:5rem;
     height: 100vh;
     position:fixed;
-    background-color: #293342;
+    background-color: var(--bg-primary);
     transition: width 200ms ease;
 }
 
 .navbar-nav:last-child{
     margin-top:auto;
-}
-
-.navbar:hover .logo{
-    width:15rem;
 }
 
 .navbar-nav {
