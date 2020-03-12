@@ -32,7 +32,7 @@ function errorHandler(errnum, err) {
 function home() {
     $('<div/>').addClass('info').attr('style', 'height:1000').appendTo($('div.main'));
     $('<h3/>').text("The Apocalypse: First Blood").appendTo("div.info");
-    $('<p/>').text(description).addClass("homePageParagraph1").attr('style', 'font-size:10').appendTo('div.info');
+    $('<p/>').html(description).addClass("homePageParagraph1").attr('style', 'font-size:20').appendTo('div.info');
 }
 
 function contact() {
