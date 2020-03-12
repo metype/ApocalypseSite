@@ -28,7 +28,7 @@ body {
 }
 
 .navbar{
-    margin-top:-1rem;
+    margin-top:-3rem;
     width:5rem;
     height: 100vh;
     position:fixed;
@@ -133,15 +133,14 @@ body{
 }
 
 .footer{
-    position:fixed;
-    float:none;
     margin-left:5rem;
     padding-left:1rem;
-    height:5rem;
     margin-right:0;
     background-color:#abafb8;
     border: 1px solid black;
     transition: 200ms ease;
+    text-align:center;
+    font-size:15px;
 }
 
 .info {
@@ -151,6 +150,7 @@ body{
     margin-bottom: 1rem;
     margin-left: 11rem;
     margin-right:6rem;
+    padding:1rem;
     background:#abafb8;
     font-size: 30px;
     border: 1px solid black;
