@@ -17,6 +17,6 @@ var description=<?php echo json_encode(file("description.txt"));?>;
     <body>
         <div class="header"></div>
         <div class="main"></div>
-        <script src="index.js"></script>
+        <script><?php include 'index.js'; ?></script>
     </body>
 </html>
