@@ -120,11 +120,15 @@ align-items:center;
 
 .link-text{
     display:none;
-    margin-left:0;
+    margin-left:1rem;
+}
+
+.nav-bad:hover #logo.link-text{
+    margin-left:2rem;
 }
 
 .logo-text{
-   margin-left:1.5rem; 
+   margin-left:-0rem;
 }
 .nav-link svg{
     min-width:2rem;

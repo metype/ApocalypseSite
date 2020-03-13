@@ -22,7 +22,7 @@ var description=<?php echo json_encode(file("description.txt"));?>;
         <nav class='navbar'>
             <ul class="navbar-nav">
                 <li class="logo">
-                    <span class="link-text">NWG Games</span>
+                    <span class="link-text" id ="logo">NWG Games</span>
                     <span class="logo-text">NWG</span>
                 </li>
                 <li class="nav-item">
