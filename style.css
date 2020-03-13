@@ -30,7 +30,7 @@ body {
 .navbar{
     margin-top:-3rem;
     width:5rem;
-    height: 100vh;
+    height: 300vh;
     position:fixed;
     background-color: #293342;
     transition: width 200ms ease;
