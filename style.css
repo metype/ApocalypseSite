@@ -34,12 +34,12 @@ a.nav-link:link:visited {
 
 /* mouse over link */
 a.nav-link:hover {
-  color: #141418;
+  color: #383838;
 }
 
 /* selected link */
 a.nav-link:active {
-  color: #141418;
+  color: #383838;
 }
 
 main {
