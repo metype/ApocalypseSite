@@ -3,6 +3,9 @@
 <script>
 var args=<?php echo json_encode($_GET);?>;
 var type=args.page;
+if(type==undefined){
+    window.location.href = '?page=home';
+}
 var validPages=<?php echo json_encode(file("validPages.txt"));?>;
 var description=<?php echo json_encode(file("description.txt"));?>;
 </script>

@@ -11,7 +11,7 @@ main {
 }
 
 body {
-    color: blask;
+    color: black;
     background-color:white;
     margin:0;
     padding:0;
@@ -115,7 +115,7 @@ body ::-webkit-scrollbar-thumb{
     background: #046988;
 }
 
-.error {
+div.error {
     min-width:456px;
     border-radius: 25px;
     margin-top: 1rem;
@@ -155,6 +155,11 @@ body{
     font-size: 30px;
     border: 1px solid black;
     text-align: center;
+}
+
+svg.error{
+    height:5rem;
+    width:5rem;
 }
 
 

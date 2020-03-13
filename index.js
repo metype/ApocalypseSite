@@ -13,7 +13,9 @@ if (validPages.indexOf(type + "\n") > -1 || validPages.indexOf(type + "\r\n") > 
     $('title.title').text('The Apocalypse: First Blood - ' + type.capitalizeFirstLetter());
     window[type]();
 } else {
-    $('<h3/>').addClass('error').attr("style", "text-align:center").appendTo($('div.main'));
+    $('<div/>').addClass('error').appendTo($('div.main'));
+    $('<h3/>').addClass('error').attr("style", "text-align:center").appendTo($('div.error'));
+    $('<svg/>').addClass('error').attr("style", "text-align:center").appendTo($('div.error'));
     $('title.title').text('The Apocalypse: First Blood - Error');
     $('h3.error').text("404 Error, unable to find page : " + type.toUpperCase() + "\n Redirecting to Home in : " + timer).addClass("error");
     error = window.setInterval(function () { errorHandler(404, " unable to find page : " + type.toUpperCase()); }, 1000);
