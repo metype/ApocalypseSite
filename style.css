@@ -90,8 +90,9 @@ align-items:center;
 }
 
 .navbar:hover .nav-link{
-        width:12.5rem;
-        padding-left:2.5rem;
+        width:12rem;
+        margin-left:0;
+        padding-left:3rem;
 }
 
 .navbar:hover .footer{
