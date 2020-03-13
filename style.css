@@ -6,6 +6,28 @@
     --bg-secondary: #141418;
 }
 
+/*https://www.w3schools.com/css/css_link.asp*/
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: #252525;
+}
+
+/* mouse over link */
+a:hover {
+  color: #575757;
+}
+
+/* selected link */
+a:active {
+  color: #575757;
+}
+
 main {
     margin-left: 5rem;
 }
@@ -183,26 +205,4 @@ svg.error{
 .button:hover {
   background-color: rgb(22, 105, 184); /* Green */
   color: grey;
-}
-
-/*https://www.w3schools.com/css/css_link.asp*/
-
-/* unvisited link */
-a:link {
-  color: black;
-}
-
-/* visited link */
-a:visited {
-  color: #252525;
-}
-
-/* mouse over link */
-a:hover {
-  color: #575757;
-}
-
-/* selected link */
-a:active {
-  color: #575757;
 }
