@@ -39,14 +39,19 @@ function about() {
     $('<div/>').addClass('info').appendTo($('div.main'));
     $('<h3/>').text("About").appendTo("div.info");
     $('<p/>').html("Nothing yet.").addClass("aboutParagraph1").attr('style', 'font-size:20').appendTo('div.info');
+}
+
+function attributions() {
     let infoTwo = $('<div/>').addClass('info').appendTo($('div.main'));
     $('<h3/>').text("Attributions").appendTo(infoTwo);
     $('<p/>').html("Here's a list of all Font Awesome icons used in this site:").addClass("attributions").attr('style', 'font-size:20').appendTo(infoTwo);
     $('<a/>').attr('href', 'https://fontawesome.com/icons/book?style=solid').attr('target', '_blank').html("Book Solid : https://fontawesome.com/icons/book?style=solid</br>").addClass("attributions").attr('style', 'font-size:20').appendTo(infoTwo);
     $('<a/>').attr('href', 'https://fontawesome.com/icons/phone?style=solid').attr('target', '_blank').html("Phone Solid : https://fontawesome.com/icons/phone?style=solid</br>").addClass("attributions").attr('style', 'font-size:20').appendTo(infoTwo);
+    $('<a/>').attr('href', 'https://fontawesome.com/icons/info-circle?style=solid').attr('target', '_blank').html("Info Circle Solid : https://fontawesome.com/icons/info-circle?style=solid</br>").addClass("attributions").attr('style', 'font-size:20').appendTo(infoTwo);
     $('<a/>').attr('href', 'https://fontawesome.com/icons/home?style=solid').attr('target', '_blank').html("Home Solid : https://fontawesome.com/icons/home?style=solid</br>").addClass("attributions").attr('style', 'font-size:20').appendTo(infoTwo);
     $('<a/>').attr('href', 'https://fontawesome.com/license').attr('target', '_blank').html("Font Awesome Pro License : https://fontawesome.com/license</br>").addClass("attributions").attr('style', 'font-size:20').appendTo(infoTwo);
     $('<p/>').html('NWG Games and 1Maker Studios are in no way affiliated with \"Font Awesome\". "Font Awesome" in no way endorses our product(s) or our use of their icons.').addClass("affiliation").attr('style', 'font-size:15').appendTo(infoTwo);
+
 }
 
 function contact() {

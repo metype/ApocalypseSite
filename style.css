@@ -28,7 +28,7 @@ body {
 }
 
 .navbar{
-    margin-top:-3rem;
+    margin-top:0;
     width:5rem;
     height: 300vh;
     position:fixed;

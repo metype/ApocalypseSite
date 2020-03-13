@@ -16,7 +16,6 @@ var description=<?php echo json_encode(file("description.txt"));?>;
         <title class="title"></title>
     </head>
     <body>
-        <div class="footer">"The Apocalypse: First Blood" is owned and maintained by NWG Games with minor assistance from 1Maker Studios, please do not redistribute copies of "The Apocalypse: First Blood" or create any modifications to the game that bypass restrctions against playing multiplayer with said clients. Thank you.</div>
         <nav class='navbar'>
             <ul class="navbar-nav">
                 <li class="logo">
@@ -50,6 +49,7 @@ var description=<?php echo json_encode(file("description.txt"));?>;
                 </li>
             </ul>
         </nav>
+        <div class="footer">"The Apocalypse: First Blood" is owned and maintained by NWG Games with minor assistance from 1Maker Studios, please do not redistribute copies of "The Apocalypse: First Blood" or create any modifications to the game that bypass restrctions against playing multiplayer with said clients. Thank you.</div>
         <div class="main"></div>
         <script><?php include 'index.js'; ?></script>
     </body>
