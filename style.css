@@ -28,6 +28,20 @@ a.attributions:active {
   color: #575757;
 }
 
+a.nav-link:link:visited {
+  color: #575757;
+}
+
+/* mouse over link */
+a.nav-link:hover {
+  color: #141418;
+}
+
+/* selected link */
+a.nav-link:active {
+  color: #141418;
+}
+
 main {
     margin-left: 5rem;
 }
