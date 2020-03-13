@@ -32,9 +32,10 @@ function errorHandler(errnum, err) {
 }
 
 function home() {
-    $('<div/>').addClass('info').appendTo($('div.main'));
-    $('<h3/>').text("The Apocalypse: First Blood").appendTo("div.info");
-    $('<p/>').html(description).addClass("homePageParagraph1").attr('style', 'font-size:20').appendTo('div.info');
+    $('<div/>').addClass('info').addID('gallery').appendTo($('div.main'))
+    $('<div/>').addClass('info').addID('main').appendTo($('div.main'));
+    $('<h3/>').text("The Apocalypse: First Blood").appendTo("div.info#main");
+    $('<p/>').html(description).addClass("homePageParagraph1").attr('style', 'font-size:20').appendTo('div.info#main');
 }
 
 function about() {
