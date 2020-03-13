@@ -32,10 +32,11 @@ function errorHandler(errnum, err) {
 }
 
 function home() {
-    $('<div/>').addClass('info').addID('gallery').appendTo($('div.main'))
-    $('<div/>').addClass('info').addID('main').appendTo($('div.main'));
-    $('<h3/>').text("The Apocalypse: First Blood").appendTo("div.info#main");
-    $('<p/>').html(description).addClass("homePageParagraph1").attr('style', 'font-size:20').appendTo('div.info#main');
+    let info = $('<div/>').addClass('info').appendTo($('div.main'))
+    let gallery = $('<div/>').addClass('info').appendTo($('div.main'));
+    $('<h3/>').text("The Apocalypse: First Blood").appendTo(info);
+    $('<p/>').html(description).addClass("homePageParagraph1").attr('style', 'font-size:20').appendTo(info);
+    $('<h3/>').text("Gallery").appendTo(gallery);
 }
 
 function about() {
