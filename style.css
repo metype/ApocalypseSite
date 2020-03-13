@@ -108,7 +108,6 @@ align-items:center;
 }
 
 .nav-link{
-    position:fixed;
     transition: width 200ms ease;
     display:flex;
     align-items:center;
