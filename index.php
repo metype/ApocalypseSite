@@ -22,9 +22,8 @@ var description=<?php echo json_encode(file("description.txt"));?>;
         <nav class='navbar'>
             <ul class="navbar-nav">
                 <li class="logo">
-                    <span class="link-text">The Apocalypse: First Blood</span>
-                    <span class="logo-text">T A:</span>
-                    <span class="logo-text">F B</span>
+                    <span class="link-text">NWG Games</span>
+                    <span class="logo-text">NWG</span>
                 </li>
                 <li class="nav-item">
                     <a href="?page=home" class="nav-link">
