@@ -9,22 +9,22 @@
 /*https://www.w3schools.com/css/css_link.asp*/
 
 /* unvisited link */
-a:link {
+a.attributions:link {
   color: black;
 }
 
 /* visited link */
-a:visited {
+a.attributions:visited {
   color: #252525;
 }
 
 /* mouse over link */
-a:hover {
+a.attributions:hover {
   color: #575757;
 }
 
 /* selected link */
-a:active {
+a.attributions:active {
   color: #575757;
 }
 
