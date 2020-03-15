@@ -34,7 +34,7 @@ function errorHandler(errnum, err) {
 function home() {
     let info = $('<div/>').addClass('info').appendTo($('div.main'))
     let gallery = $('<div/>').addClass('info').appendTo($('div.main'));
-    $('<h3/>').text("The Apocalypse: First Blood").appendTo(info);
+    $('<h3/>').text("NWG Games").appendTo(info);
     $('<p/>').html(description).addClass("homePageParagraph1").attr('style', 'font-size:20').appendTo(info);
     $('<h4/>').text("Gallery").appendTo(gallery);
 }

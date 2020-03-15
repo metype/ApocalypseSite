@@ -64,7 +64,7 @@ body {
 }
 
 .navbar{
-    margin-top:0;
+    margin-top:-1rem;
     width:5rem;
     height: 300vh;
     position:fixed;
@@ -123,7 +123,7 @@ align-items:center;
     margin-left:1rem;
 }
 
-.nav-bad:hover #logo.link-text{
+.navbar:hover #logo.link-text{
     margin-left:2rem;
 }
 
